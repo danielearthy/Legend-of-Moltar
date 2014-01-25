@@ -12,7 +12,7 @@ The drum machine nicknamed "Moltar" listens for tweets containing keywords and w
 
 **Jquery** - Interface as well as for the draggable twitter keyword listeners
 
-**Rails 4** - Hosted our App and provided streaming support for the Twitter Streaming API through the server to the client.
+**Rails 4** - App framework and provided streaming support for the Twitter Streaming API from the server to the client.
 
 **Puma** - HTTP Server that supports Rails 4 streaming
 
