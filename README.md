@@ -4,9 +4,9 @@ by Daniel Earthy, Tyler Olson, Daniel Kimbel, Marc Cordier
 ## Overview
 Starting with a simple idea of "hearing twitter data" we created a drum/sample machine in javascript that can interface with the Twitter Streaming API. 
 
-The drum machine "nicknamed Moltar" listens for tweets containing keywords and when one of those keywords is found it triggers the sample that it has been assigned to.
+The drum machine nicknamed "Moltar" listens for tweets containing keywords and when one of those keywords is found it triggers the sample that it has been assigned to.
 
-To do this we used:
+##Technology Used
 
 **JS Web Audio API** - The audio engine and sample library manager of the drum machine.  Used to create XY filter pad and volume control as well as real-time switchable sample libraries.
 
