@@ -1,9 +1,19 @@
-# The Legend of Moltar
+# TweetBeat or The Legend of Moltar
+by Daniel Earthy, Tyler Olson, Daniel Kimbel, Marc Cordier
 
-## The Beginning
-Moltar was angry.
+## Overview
+Starting with a simple idea of "hearing twitter data" we created a drum/sample machine in javascript that can interface with the Twitter Streaming API. 
 
-Very angry.
-The anger came from the actions of Voltar.  The planet Xolov had been under a state of peace and tranquility for the last 325, 834 years.  Xolov is ruled by the four tribes.  Heading the four tribes are Moltar, (...).
+The Drum Machine listens for tweets containing keywords and when one of those keywords is found it triggers the sample that it has been assigned to.
 
-As Moltar stormed home through fields of ashen gray, he asked himself why his wife never seemed to understand.  SHe was still young and beautiful, at 129,464 years she was a great catch.  She was the the lava that melted the rocks solid foundations were built on.  This was well respected in Xolov.
+To do this we used:
+
+JS Web Audio API - The audio engine and sample library manager of the drum machine.  Used to create XY filter pad and volume control as well as real-time switchable sample libraries.
+
+Jquery - Interface as well as for the draggable twitter keyword listeners
+
+Rails 4 - Hosted our App and provided streaming support for the Twitter Streaming API through the server to the client.
+
+Puma - HTTP Server that supports Rails 4 streaming
+
+Twitter Streaming API  - Allowed us to listen and filter hundreds of thousands of tweets per minute. 
