@@ -1,6 +1,9 @@
 # TweetBeat or The Legend of Moltar
 by Daniel Earthy, Tyler Olson, Daniel Kimbel, Marc Cordier
 
+Live Demo: http://tweetbeat.herokuapp.com/  - Drag the topics onto the drum pads to hear the tweets!
+
+
 ## Overview
 Starting with a simple idea of "hearing twitter data" we created a drum/sample machine in javascript that can interface with the Twitter Streaming API. 
 
